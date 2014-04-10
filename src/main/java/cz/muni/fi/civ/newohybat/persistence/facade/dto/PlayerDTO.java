@@ -1,12 +1,17 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
 
 import org.drools.definition.type.PropertyReactive;
 
 @PropertyReactive
-public class PlayerDTO {
+public class PlayerDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6438577026379092559L;
 	private Long id;
 	private String name;
 	private Set<Long> cities;

@@ -1,11 +1,16 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
 
 import org.drools.definition.type.PropertyReactive;
 @PropertyReactive
-public class TileDTO {
+public class TileDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3244012016540558408L;
 	private Long id;
 	private Long posX;
 	private Long posY;
@@ -138,6 +143,17 @@ public Long getCity() {
 			return false;
 		return true;
 	}
+	@Override
+	public String toString() {
+		return "TileDTO [id=" + id + ", posX=" + posX + ", posY=" + posY
+				+ ", terrain=" + terrain + ", special=" + special + ", city="
+				+ city + ", improvements=" + improvements + ", units=" + units
+				+ ", ownedBy=" + ownedBy + ", foodProduction=" + foodProduction
+				+ ", resourcesProduction=" + resourcesProduction
+				+ ", tradeProduction=" + tradeProduction + ", movementCost="
+				+ movementCost + ", defenseBonus=" + defenseBonus + "]";
+	}
+	
 	
 	
 }

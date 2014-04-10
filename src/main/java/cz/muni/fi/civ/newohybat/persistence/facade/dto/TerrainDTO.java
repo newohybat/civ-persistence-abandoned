@@ -1,10 +1,15 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
 
 
-public class TerrainDTO {
+public class TerrainDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7648915005997473114L;
 	private Long id;
 	private String ident;
 	private String name;

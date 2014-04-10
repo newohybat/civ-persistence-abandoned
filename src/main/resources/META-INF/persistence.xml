@@ -16,6 +16,7 @@
 	<class>cz.muni.fi.civ.newohybat.persistence.entities.TradeRoute</class>
 	<class>cz.muni.fi.civ.newohybat.persistence.entities.Unit</class>
 	<class>cz.muni.fi.civ.newohybat.persistence.entities.UnitType</class>
+	<class>cz.muni.fi.civ.newohybat.persistence.entities.Point</class>
     <properties>
       <property name="hibernate.connection.url" value="jdbc:derby:memory:unit-testing-jpa"/>
       <property name="hibernate.connection.driver_class" value="org.apache.derby.jdbc.EmbeddedDriver"/>

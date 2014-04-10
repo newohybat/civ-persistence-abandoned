@@ -1,7 +1,13 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
+import java.io.Serializable;
 
-public class GovernmentDTO {
+
+public class GovernmentDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2349884493751019404L;
 	private Long id;
 	private String ident;
 	private String name;

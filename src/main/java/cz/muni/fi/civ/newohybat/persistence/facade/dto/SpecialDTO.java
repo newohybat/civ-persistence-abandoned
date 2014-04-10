@@ -1,7 +1,13 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
+import java.io.Serializable;
 
-public class SpecialDTO {
+
+public class SpecialDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 708300063719118397L;
 	private Long id;
 	private String ident;
 	private String name;

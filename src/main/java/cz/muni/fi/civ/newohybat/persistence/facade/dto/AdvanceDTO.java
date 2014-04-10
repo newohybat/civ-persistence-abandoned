@@ -1,12 +1,17 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
 
 import org.drools.definition.type.PropertyReactive;
 
 @PropertyReactive
-public class AdvanceDTO {
+public class AdvanceDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 92045097809768765L;
 	private Long id;
 	private String ident;
 	private String name;

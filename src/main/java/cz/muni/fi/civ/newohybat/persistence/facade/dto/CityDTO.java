@@ -273,6 +273,33 @@ public class CityDTO implements Serializable{
 	public void setImprovementsUpkeep(Integer improvementsUpkeep) {
 		this.improvementsUpkeep = improvementsUpkeep;
 	}
+	@Override
+	public String toString() {
+		return "CityDTO [id=" + id + ", name=" + name + ", cityCentre="
+				+ cityCentre + ", owner=" + owner + ", improvements="
+				+ improvements + ", currentImprovement=" + currentImprovement
+				+ ", enabledImprovements=" + enabledImprovements
+				+ ", homeUnits=" + homeUnits + ", currentUnit=" + currentUnit
+				+ ", enabledUnitTypes=" + enabledUnitTypes + ", tradeRoutes="
+				+ tradeRoutes + ", managedTiles=" + managedTiles + ", size="
+				+ size + ", weLoveDay=" + weLoveDay + ", disorder=" + disorder
+				+ ", foodProduction=" + foodProduction + ", foodConsumption="
+				+ foodConsumption + ", foodSurplus=" + foodSurplus
+				+ ", foodStock=" + foodStock + ", resourcesProduction="
+				+ resourcesProduction + ", resourcesConsumption="
+				+ resourcesConsumption + ", resourcesSurplus="
+				+ resourcesSurplus + ", tradeProduction=" + tradeProduction
+				+ ", corruption=" + corruption + ", luxuriesAmount="
+				+ luxuriesAmount + ", luxuriesSpent=" + luxuriesSpent
+				+ ", taxesAmount=" + taxesAmount + ", researchAmount="
+				+ researchAmount + ", peopleHappy=" + peopleHappy
+				+ ", peopleUnhappy=" + peopleUnhappy + ", peopleContent="
+				+ peopleContent + ", peopleEntertainers=" + peopleEntertainers
+				+ ", peopleTaxmen=" + peopleTaxmen + ", peopleScientists="
+				+ peopleScientists + ", pollutionChance=" + pollutionChance
+				+ ", improvementsUpkeep=" + improvementsUpkeep
+				+ ", unitsSupport=" + unitsSupport + "]";
+	}
 	
 	
 	

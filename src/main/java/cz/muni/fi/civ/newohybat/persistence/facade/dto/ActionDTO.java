@@ -1,6 +1,12 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
-public class ActionDTO {
+import java.io.Serializable;
+
+public class ActionDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3758914083260503760L;
 	private Long id;
 	private String ident;
 	private String name;

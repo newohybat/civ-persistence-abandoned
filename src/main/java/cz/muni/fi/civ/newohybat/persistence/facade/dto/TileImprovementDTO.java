@@ -1,7 +1,13 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
+import java.io.Serializable;
 
-public class TileImprovementDTO {
+
+public class TileImprovementDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5012066327766977317L;
 	private Long id;
 	private String ident;
 	private String description;

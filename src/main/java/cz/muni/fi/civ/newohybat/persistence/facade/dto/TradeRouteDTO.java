@@ -1,6 +1,12 @@
 package cz.muni.fi.civ.newohybat.persistence.facade.dto;
 
-public class TradeRouteDTO {
+import java.io.Serializable;
+
+public class TradeRouteDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2745186027075510835L;
 	private Long id;
 	private CityDTO destination;
 	public Long getId() {

@@ -86,7 +86,7 @@ public class CivBackendImpl implements CivBackend {
 	public void createPlayer(PlayerDTO player) {
 		playerServ.create(DTOHelper.getPlayer(player));
 	}
-
+	
 	public void updatePlayer(PlayerDTO player) {
 		playerServ.update(DTOHelper.getPlayer(player));
 	}
